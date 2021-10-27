@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "HelveticaNeueLTProLt";
+  src: url(../fonts/fonts_WOFF2/HelveticaNeueLTProLt.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HelveticaNeueLTProMdt";
+  src: url(../fonts/fonts_WOFF2/HelveticaNeueLTProMd.woff2) format("woff2");
+}
+@font-face {
+  font-family: "HelveticaNeueLTProRoman";
+  src: url(../fonts/fonts_WOFF2/HelveticaNeueLTProRoman.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Merriweather-LightItalic";
+  src: url(../fonts/fonts_WOFF2/Merriweather-LightItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../fonts/fonts_WOFF2/Montserrat-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/fonts_WOFF2/Montserrat-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Roboto-Regulart";
+  src: url(../fonts/fonts_WOFF2/Roboto-Regular.woff2) format("woff2");
+}
