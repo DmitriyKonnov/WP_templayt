@@ -343,8 +343,31 @@ p {
 }
 
 .sevices__item-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 172px;
   height: 172px;
   border-radius: 50%;
   border: 2px solid #ffffff;
+  margin-bottom: 43px;
+}
+
+.services__item-title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.services__item-description {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #383838;
 }
