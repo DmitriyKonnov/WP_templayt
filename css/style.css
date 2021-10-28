@@ -1,30 +1,31 @@
 @font-face {
   font-family: "HelveticaNeueLTProLt";
-  src: url(../fonts/fonts_WOFF2/HelveticaNeueLTProLt.woff2) format("woff2");
+  src: url("../fonts/fonts_WOFF2/HelveticaNeueLTProLt.woff2") format("woff2");
 }
 @font-face {
-  font-family: "HelveticaNeueLTProMdt";
-  src: url(../fonts/fonts_WOFF2/HelveticaNeueLTProMd.woff2) format("woff2");
+  font-family: "HelveticaNeueLTProMd";
+  src: url("../fonts/fonts_WOFF2/HelveticaNeueLTProMd.woff2") format("woff2");
 }
 @font-face {
   font-family: "HelveticaNeueLTProRoman";
-  src: url(../fonts/fonts_WOFF2/HelveticaNeueLTProRoman.woff2) format("woff2");
+  src: url("../fonts/fonts_WOFF2/HelveticaNeueLTProRoman.woff2") format("woff2");
 }
 @font-face {
   font-family: "Merriweather-LightItalic";
-  src: url(../fonts/fonts_WOFF2/Merriweather-LightItalic.woff2) format("woff2");
+  src: url("../fonts/fonts_WOFF2/Merriweather-LightItalic.woff2")
+    format("woff2");
 }
 @font-face {
   font-family: "Montserrat-Light";
-  src: url(../fonts/fonts_WOFF2/Montserrat-Light.woff2) format("woff2");
+  src: url("../fonts/fonts_WOFF2/Montserrat-Light.woff2") format("woff2");
 }
 @font-face {
   font-family: "Montserrat-Regular";
-  src: url(../fonts/fonts_WOFF2/Montserrat-Regular.woff2) format("woff2");
+  src: url("../fonts/fonts_WOFF2/Montserrat-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: "Roboto-Regulart";
-  src: url(../fonts/fonts_WOFF2/Roboto-Regular.woff2) format("woff2");
+  font-family: "Roboto-Regular";
+  src: url("../fonts/fonts_WOFF2/Roboto-Regular.woff2") format("woff2");
 }
 
 html {
@@ -41,10 +42,8 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1230px;
-  padding: 0 15px;
+ul {
+  padding: 0;
 }
 
 li {
@@ -63,6 +62,22 @@ button {
   background-color: transparent;
   cursor: pointer;
   border: 1px solid #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1230px;
+  padding: 0 15px;
 }
 
 /* === Header === */
@@ -119,6 +134,7 @@ button {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #1d1e1f;
+  margin-bottom: 20px;
 }
 
 .hero__description {
@@ -191,7 +207,7 @@ button {
 
 .info__block-description {
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat-Light";
   font-size: 15px;
   line-height: 22px;
   font-weight: 300;
@@ -218,4 +234,117 @@ button {
   bottom: 10px;
 }
 
-/* === Info === */
+/* === Info end === */
+
+/* === Team === */
+
+.team__container {
+  text-align: center;
+}
+
+.team__title {
+  margin-top: 140px;
+  font-family: "Helvetica Neue Pro - Lt";
+  font-size: 34px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin-bottom: 13px;
+}
+
+.team__description {
+  font-family: "Merriweather-LightItalic";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin-bottom: 127px;
+}
+
+.team__content {
+  padding: 0 115px;
+  margin-bottom: 150px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item-photo {
+  margin-bottom: 30px;
+}
+
+.team__item-name {
+  font-family: "HelveticaNeueLTProMdt", sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #464646;
+}
+
+.team__item-position {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+/* === Team end === */
+
+.services {
+  background-color: #181818;
+  padding-top: 175px;
+  padding-bottom: 155px;
+}
+
+.services__container {
+  text-align: center;
+}
+
+.sevices__title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 34px;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.services__description {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #777777;
+  margin-bottom: 140px;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 335px;
+}
+
+.sevices__item-picture {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
