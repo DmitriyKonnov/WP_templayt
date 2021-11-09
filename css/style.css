@@ -103,7 +103,7 @@ p {
 }
 
 .nav__links {
-  font-family: Roboto;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 13px;
   line-height: 17px;
   font-weight: 400;
@@ -128,7 +128,7 @@ p {
 }
 
 .hero__title {
-  font-family: "Helvetica Neue Pro - Lt";
+  font-family: "HelveticaNeueLTProLt", sans-serif;
   font-size: 44px;
   line-height: 17px;
   font-weight: 400;
@@ -138,7 +138,7 @@ p {
 }
 
 .hero__description {
-  font-family: Merriweather;
+  font-family: "Merriweather-LightItalic", sans-serif;
   font-size: 16px;
   line-height: 17px;
   font-weight: 300;
@@ -149,7 +149,7 @@ p {
 }
 
 .hero__btn {
-  font-family: Montserrat;
+  font-family: "Montserrat-Regular", sans-serif;
   font-size: 13px;
   line-height: 17px;
   font-weight: 700;
@@ -196,7 +196,7 @@ p {
 }
 
 .info__block-title {
-  font-family: "HelveticaNeueLTProMdt";
+  font-family: "HelveticaNeueLTProMd", sans-serif;
   font-size: 48px;
   line-height: 26px;
   font-weight: 400;
@@ -207,7 +207,7 @@ p {
 
 .info__block-description {
   text-align: center;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat-Light", sans-serif;
   font-size: 15px;
   line-height: 22px;
   font-weight: 300;
@@ -244,7 +244,7 @@ p {
 
 .team__title {
   margin-top: 140px;
-  font-family: "Helvetica Neue Pro - Lt";
+  font-family: "HelveticaNeueLTProLt", sans-serif;
   font-size: 34px;
   line-height: 26px;
   font-weight: 400;
@@ -254,7 +254,7 @@ p {
 }
 
 .team__description {
-  font-family: "Merriweather-LightItalic";
+  font-family: "Merriweather-LightItalic", sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -298,6 +298,8 @@ p {
 }
 
 /* === Team end === */
+
+/* === Services === */
 
 .services {
   background-color: #181818;
@@ -370,4 +372,132 @@ p {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #383838;
+}
+
+/* === Sevices end === */
+
+/* === Contacts === */
+
+.footer__container {
+  text-align: center;
+}
+
+.footer__title {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 34px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin-top: 95px;
+  margin-bottom: 13px;
+}
+
+.footer__description {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin-bottom: 65px;
+}
+
+.contacts__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+}
+
+.footer__contacts {
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__input {
+  width: 770px;
+  height: 52px;
+  border: 1px solid #999999;
+  margin-bottom: 20px;
+  outline: none;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  padding: 0px 10px;
+}
+
+.footer__input::placeholder {
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.footer__input:focus::placeholder,
+.footer__textarea:focus::placeholder {
+  opacity: 0;
+}
+
+.footer__textarea {
+  width: 770px;
+  height: 195px;
+  border: 1px solid #999999;
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  padding: 10px 10px;
+  outline: none;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.footer__textarea::placeholder {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.footer__button {
+  width: 770px;
+  height: 52px;
+  background-color: #161616;
+  font-family: "HelveticaNeueLTProMd", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  margin-bottom: 150px;
+}
+
+.copyright {
+  font-family: "HelveticaNeueLTProRoman", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #3b3b3b;
+  margin-bottom: 30px;
 }
